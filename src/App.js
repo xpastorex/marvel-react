@@ -5,12 +5,14 @@ import Home from "./pages/Home";
 import Series from "./pages/Series";
 import Comics from "./pages/Comics";
 import Error404 from './pages/Error404';
+import Header from './components/Header/Header';
 
 
 function App() {
   return (
     <>
       <Router>
+        <Header/>
         <Switch>
           <Route path='/' exact component={() => <Home />} />
           <Route path='/inicio' exact component={() => <Home />} />
