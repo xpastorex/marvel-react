@@ -30,7 +30,6 @@ export default function Header() {
                 <Menu.Item name="series" active={activeItem === 'series'} onClick={handlerItemCick} />
                 <Menu.Item name="comics" active={activeItem === 'comics'} onClick={handlerItemCick} />
             </Menu>
-            <p>Desde Header</p>
         </div>
     )
 }
